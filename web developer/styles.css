@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-image: url('aaa4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+

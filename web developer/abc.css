@@ -1,0 +1,83 @@
+.para{
+    background-color:red;
+}
+table,th,td {
+    border:2px solid rgb(150, 2, 2);
+    border-collapse: collapse;
+}
+ a:link {
+    color:2px saddlebrown;
+    border-collapse:collapse;
+ }
+ a:visited{
+    color: aliceblue;
+ }
+
+ a:hover{
+    color: brown;
+ }
+ 
+ a{
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+ }
+
+
+.para1{
+
+   position : sticky;
+    top: 100px;
+    left: 50px;
+    bottom: 0px;
+    right: 0px;
+    height: 100px;
+
+    width: 200px;
+    float: right;
+}
+
+.outer{
+    border: 3px  solid blueviolet;
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+
+.inner{
+    border: 2px solid red;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    left: 60px;
+}
+
+.abc{
+    border: 2px solid green;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    transition:width 8s;
+    transition-delay: 5s;
+    transition-timing-function: ease-in;
+    transform:rotate(40deg);
+    animation-duration: 25ss;
+    animation-name: anime;
+    animation-delay: 2s;
+    
+
+}
+
+.abc:hov/er{
+    width: 400px;
+    height: 200px;
+    transition: rotate(90deg);
+}
+
+@keyframes anime{
+    0%{background-color: blue;left: 10px;}
+    25%{background-color: brown ; left: 200px;}
+    50%{background-color: yellow;top: 100px;left: 300px;}
+    100%{background-color: pink;left: 100px;top: 100px;}
+}
